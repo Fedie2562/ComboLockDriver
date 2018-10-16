@@ -52,9 +52,8 @@ public class ComboLock {
         int comboNum2 = randomNum(1,9);
         int comboNum3 = randomNum(1,9);
         System.out.println("A random 3 digit combo has been generated");
-        //
-        System.out.println(""+comboNum1+comboNum2+comboNum3);
-        //
+        //Testing purposes
+        //System.out.println(""+comboNum1+comboNum2+comboNum3);
         while(!unlocked){
             if(guesses==3){
                 System.out.println("You have run out of guesses\nThe combination was "+comboNum1+comboNum2+comboNum3);
