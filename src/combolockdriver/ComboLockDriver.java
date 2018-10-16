@@ -19,7 +19,8 @@ public class ComboLockDriver {
      */
     public static void main(String[] args) {
         // 
-        ComboLock randomCombo = new ComboLock(Integer.parseInt(JOptionPane.showInputDialog("Please enter the combination to set\n3 digit numbers only")));
+        ComboLock manualCombo = new ComboLock(Integer.parseInt(JOptionPane.showInputDialog("Please enter the combination to set\n3 digit numbers only")));
+        ComboLock randomCombo = new ComboLock();
     }
     
 }
